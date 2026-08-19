@@ -82,7 +82,7 @@ function Index() {
           className="float-soft mx-auto w-64 animate-fade-in sm:w-80 md:w-96"
         />
         <Reveal delay={100}>
-          <div className="mt-8 space-y-1 font-serif text-xl leading-relaxed sm:text-2xl">
+          <div className="mt-8 space-y-1 font-serif text-xl leading-relaxed text-primary sm:text-2xl">
             <p>
               Monsieur et Madame{" "}
               <span className="text-gold-deep font-semibold">TCHANGO Gabriel</span>,
@@ -92,7 +92,7 @@ function Index() {
 
           <p className="my-6 font-script text-4xl text-primary">&amp;</p>
 
-          <div className="space-y-1 font-serif text-xl leading-relaxed sm:text-2xl">
+          <div className="space-y-1 font-serif text-xl leading-relaxed text-primary sm:text-2xl">
             <p>Les Familles</p>
             <p className="text-gold-deep font-semibold">
               KOFFI d&apos;EBRAH <span className="text-foreground font-normal">et</span>

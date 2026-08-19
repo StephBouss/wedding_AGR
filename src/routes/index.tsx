@@ -93,7 +93,7 @@ function Index() {
           <p className="my-6 font-script text-4xl text-primary">&amp;</p>
 
           <div className="space-y-1 font-serif text-xl leading-relaxed sm:text-2xl">
-            <p className="text-primary">Les Familles</p>
+            <p>Les Familles</p>
             <p className="text-gold-deep font-semibold">
               KOFFI d&apos;EBRAH <span className="text-foreground font-normal">et</span>
             </p>

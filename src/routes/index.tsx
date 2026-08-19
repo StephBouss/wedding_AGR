@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import couronne from "@/assets/couronne.png.asset.json";
-import photoCouple from "@/assets/photo-couple.jpg.asset.json";
-import nomCouple from "@/assets/nom-aude-guy-raymond.png.asset.json";
+import couronne from "@/assets/couronne.png";
+import photoCouple from "@/assets/photo-couple.jpg";
+import nomCouple from "@/assets/nom-aude-guy-raymond.png";
 import { Countdown } from "@/components/Countdown";
 import { Reveal } from "@/components/Reveal";
 import { RsvpForm } from "@/components/RsvpForm";
@@ -77,7 +77,7 @@ function Index() {
       {/* En-tête : couronne + annonce des familles */}
       <header className="mx-auto max-w-3xl px-6 pt-12 pb-16 text-center sm:pt-16">
         <img
-          src={couronne.url}
+          src={couronne}
           alt="Couronne florale tropicale avec le monogramme A G R"
           className="float-soft mx-auto w-64 animate-fade-in sm:w-80 md:w-96"
         />
@@ -110,7 +110,7 @@ function Index() {
           <div className="mt-8">
             <h1 className="sr-only">Aude &amp; Guy Raymond</h1>
             <img
-              src={nomCouple.url}
+              src={nomCouple}
               alt="Aude &amp; Guy Raymond"
               className="shimmer-text mx-auto w-full max-w-md sm:max-w-lg md:max-w-2xl"
               aria-hidden="true"
@@ -156,7 +156,7 @@ function Index() {
                 aria-hidden="true"
               />
               <img
-                src={photoCouple.url}
+                src={photoCouple}
                 alt="Aude et Guy Raymond en tenue traditionnelle akan"
                 className="relative w-full rounded-sm object-cover shadow-[var(--shadow-elegant)] transition-transform duration-700 group-hover:scale-[1.03]"
                 loading="lazy"
@@ -243,9 +243,9 @@ function Index() {
       <footer className="border-t border-border px-6 py-10 text-center">
 
         <img
-          src={nomCouple.url}
+          src={nomCouple}
           alt="Aude &amp; Guy Raymond"
-          className="mx-auto w-full max-w-xs sm:max-w-sm"
+          className="mx-auto w-full max-w-[180px] sm:max-w-[220px]"
         />
         <p className="mt-2 font-serif text-sm tracking-[0.2em] uppercase text-muted-foreground">
           24 Octobre 2026 — Port-Gentil

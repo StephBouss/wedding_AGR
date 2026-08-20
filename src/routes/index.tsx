@@ -5,8 +5,7 @@ import nomCouple from "@/assets/nom-aude-guy-raymond.png";
 import { Countdown } from "@/components/Countdown";
 import { Reveal } from "@/components/Reveal";
 
-// TODO: remplacer par le lien du Google Forms de réservation
-const GOOGLE_FORM_URL = "#TODO-lien-google-form";
+const GOOGLE_FORM_URL = "https://forms.gle/yUQNRTACrFuBbeuU9";
 
 
 export const Route = createFileRoute("/")({

@@ -242,7 +242,7 @@ function Index() {
               rel="noopener noreferrer"
               className="mt-8 inline-block rounded-sm bg-gold px-10 py-4 font-serif text-lg font-semibold tracking-[0.15em] text-primary uppercase shadow-[var(--shadow-elegant)] transition-all duration-300 hover:-translate-y-1 hover:bg-gold-deep"
             >
-              Réserver ma place
+              Réservation
             </a>
           </Reveal>
         </div>

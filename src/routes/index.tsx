@@ -4,7 +4,9 @@ import photoCouple from "@/assets/photo-couple.jpg";
 import nomCouple from "@/assets/nom-aude-guy-raymond.png";
 import { Countdown } from "@/components/Countdown";
 import { Reveal } from "@/components/Reveal";
-import { RsvpForm } from "@/components/RsvpForm";
+
+// TODO: remplacer par le lien du Google Forms de réservation
+const GOOGLE_FORM_URL = "#TODO-lien-google-form";
 
 
 export const Route = createFileRoute("/")({
@@ -235,7 +237,14 @@ function Index() {
             </p>
           </Reveal>
           <Reveal delay={120}>
-            <RsvpForm />
+            <a
+              href={GOOGLE_FORM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-block rounded-sm bg-gold px-10 py-4 font-serif text-lg font-semibold tracking-[0.15em] text-primary uppercase shadow-[var(--shadow-elegant)] transition-all duration-300 hover:-translate-y-1 hover:bg-gold-deep"
+            >
+              Réserver ma place
+            </a>
           </Reveal>
         </div>
       </section>
